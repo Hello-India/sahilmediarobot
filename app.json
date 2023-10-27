@@ -12,23 +12,23 @@
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "Your bot token.",
+            "value": "5131815138:AAFPJ335y5UNiRm9MzCALL8ThGZVGbbdwmo",
             "required": true
         },
         "API_ID": {
-            "description": "Get this value from https://my.telegram.org",
+            "value": "16575077",
             "required": true
         },
         "API_HASH": {
-            "description": "Get this value from https://my.telegram.org",
+            "value": "1c8c0bcb55c14e0fd8078058966b6a11",
             "required": true
         },
         "CHANNELS": {
-            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "value": "-1001728124509",
             "required": false
         },
         "ADMINS": {
-            "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "value": "1702061654",
             "required": true
         },
         "SHORT_API": {
@@ -40,11 +40,11 @@
             "required": false
         },
         "PICS": {
-            "description": "Add some telegraph link of pictures .",
+            "value": "https://telegra.ph/file/12ac341f206163756bfa8.jpg",
             "required": false
         },
         "LOG_CHANNEL": {
-            "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "value": "-1001768252356",
             "required": true                              
         },
         "AUTH_CHANNEL": {
@@ -58,11 +58,11 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value": "Hey {mention}👋\n\n{file_name}\n\n🔘 size - {file_size}\n\n╭─── • ❰ @MR_LINK_Z ❱ • ────➤\n┣ ▫️ @MRxSERIES\n┣ ▫️ @MalluMovie_Official\n╰─────── • ◆ • ───────➤",
+            "value": "Hey {mention}👋\n\n{file_name}\n\n🔘 size - {file_size}\n\n⚠️ ɢʀᴏᴜᴘ : @chat_official_sahil\n🍷 ᴜᴘʟᴏᴀᴅᴇʀ : @itz_sahil_official",
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongoDB URI.",
+            "value": "mongodb+srv://devensh12:devensh1234@cluster0.x74masc.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
@@ -77,7 +77,7 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "MKN_BOTZ_DISCUSSION_GROUP",
+            "value": "chat_official_sahil",
             "required": false
         },
         "IMDB": {
@@ -92,12 +92,12 @@
         },
         "IMDB_TEMPLATE": {
             "description": "Custom IMDB Template",
-            "value": "<b>🏷 Title</b>: <a href={url}>{title}</a>\n<b>🎭 Genres</b>: {genres}\n<b>📆 Year</b>: <a href={url}/releaseinfo>{year}</a>\n<b>🌟 Rating</b>: <a href={url}/ratings>{rating}</a>\n<b>☀️ Languages</b> : <code>{languages}</code>\n<b>👨‍💼 Dɪʀᴇᴄᴛᴏʀ</b>: {director}\n<b>👨🏻‍🦱 Pʀᴏᴅᴜᴄᴇʀ</b>: {producer}\n<b>📑 wʀɪᴛᴇʀ</b>: {writer}\n<b>📀 RunTime</b>: {runtime} Minutes\n<b>📆 Release Info</b> : {release_date}\n<b>🎛 Countries</b> : <code>{countries}</code>\n<b>📓 Sᴛᴏʀy</b> : <code>{plot}</code>\n\n\n<b>🍀Requested by🍀</b> : {message.from_user.mention}",        
+            "value": "<b>🏷 Title</b>: <a href={url}>{title}</a>\n<b>🎭 Genres</b>: {genres}\n<b>📆 Year</b>: <a href={url}/releaseinfo>{year}</a>\n<b>🌟 Rating</b>: <a href={url}/ratings>{rating}</a>\n<b>☀️ Languages</b> : <code>{languages}</code>\n<b>📀 RunTime</b>: {runtime} Minutes\n<b>🎛 Countries</b> : <code>{countries}</code>\n<b>📓 Sᴛᴏʀy</b> : <code>{plot}</code>\n\n\n<b>🍀Requested by🍀</b> : {message.from_user.mention}\n🤍Provided BY ~ @itz_sahil_official",        
             "required": false
         }, 
         "IMDB_DELET_TIME": {
             "description": "bot risult aouto delet time in second do to avoid group copyright issue. default is 300 ",
-            "value": "300",
+            "value": "600",
             "required": false  
         },
         "SINGLE_BUTTON": {
@@ -107,7 +107,7 @@
         },
         "START_MESSAGE": {
             "description": "bot start message text [ {user} = bot startd user name {bot} = your bot name",
-            "value": "👋 𝙷𝙴𝙻𝙾 {user}\n\n𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 {bot},\n𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽...",
+            "value": "<b>Hii Baby😁 {user}</b>\n\n<b> I am Movie/Series provider bot by @itz_sahil_official.❤️‍🔥</b>\n<b>Join ~ @chat_official_sahil🌹</b>\n<b>ENJOY 🖤</b>",
             "required": false
         },       
         "FORCE_SUB_TEXT": {
@@ -122,12 +122,12 @@
         },
         "WELCOM_PIC": {
             "description": "Welcome message pic (telegraph link)",
-            "value": "",
+            "value": "https://telegra.ph/file/12ac341f206163756bfa8.jpg",
             "required": false
         },
         "WELCOM_TEXT": {
             "description": "your group welcome text keyword({user} = joined use & {chat} = your chat name",
-            "value": "Hai {user}\nwelcome to {chat}",
+            "value": "Hai {user}\nwelcome to {chat}\nFor Any Problem Contact ~@Sahil_X_Official\nPlease Read /rules Carefully🤍🤍",
             "required": false
         },
         "BUTTON_LOCK_TEXT": {
